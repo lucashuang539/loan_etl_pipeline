@@ -1,0 +1,4 @@
+application_id,applicant_name,applicant_income,loan_amount,loan_purpose,credit_score,employment_status
+1001,John Doe,75000,25000,Debt Consolidation,720,Employed
+1002,Jane Smith,68000,15000,Home Improvement,680,Self-Employed
+1003,Bob Johnson,82000,35000,Business,610,Employed

@@ -1,0 +1,13 @@
+# Data source configuration
+input:
+  file_path: "data/input/sample_data.csv"
+
+# Target database configuration  
+output:
+  database_path: "data/output/loans.db"
+  table_name: "approved_loans"
+
+# Logging configuration
+logging:
+  level: "INFO"
+  file_path: "logs/etl_pipeline.log"

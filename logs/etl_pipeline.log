@@ -1,0 +1,11 @@
+2025-11-11 22:25:39,641 - INFO - === ETL Pipeline Started ===
+2025-11-11 22:25:39,641 - INFO - Phase 1: Data Extraction
+2025-11-11 22:25:39,641 - INFO - Starting data extraction from data/input/sample_data.csv
+2025-11-11 22:25:39,764 - INFO - Successfully extracted data. Shape: 3 rows, 7 columns
+2025-11-11 22:25:39,764 - INFO - Phase 2: Data Transformation
+2025-11-11 22:25:39,765 - INFO - Starting data transformation
+2025-11-11 22:25:39,774 - INFO - Data transformation complete. Final shape: 3 rows
+2025-11-11 22:25:39,774 - INFO - Phase 3: Data Loading
+2025-11-11 22:25:39,774 - INFO - Starting data loading to database data/output/loans.db
+2025-11-11 22:25:39,786 - INFO - Successfully loaded 3 rows into table approved_loans
+2025-11-11 22:25:39,786 - INFO - === ETL Pipeline Completed Successfully ===
